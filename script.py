@@ -2,7 +2,6 @@
 
 print('hello world from python')
 
+import urllib
 
-intVar = int(input('enter integer = '))
-
-print('the result is', intVar+1)
+print(urllib)
