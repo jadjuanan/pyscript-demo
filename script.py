@@ -2,6 +2,7 @@
 
 print('hello world from python')
 
-import urllib
+from urllib import request
+resp = request.urlopen('https://jadjuanan.pythonanywhere.com/on')
 
-print(urllib)
+print(resp.code)
